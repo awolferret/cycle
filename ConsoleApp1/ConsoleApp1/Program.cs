@@ -6,7 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ведите ваше сообщение");
+            Console.WriteLine("Введите ваше сообщение");
             string massage = Console.ReadLine();
             Console.WriteLine("Сколько повторов?");
             int repeatNumber = Convert.ToInt32(Console.ReadLine());
